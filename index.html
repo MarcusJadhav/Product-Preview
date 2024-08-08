@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Product Preview</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-img-container">
-    <img src="./images/1.jpg" alt="macbook" class="main-img">
-</div>
+      <img src="./images/1.jpg" alt="macbook" class="main-img" id="main-img"/>
+    </div>
 
-<div class="side-img-container">
-    <img src="./images/1.jpg" alt="macbook" class="alt-imgs">
-    <img src="./images/2.jpg" alt="macbook" class="alt-imgs">
-<img src="./images/3.jpg" alt="macbook" class="alt-imgs">
-<img src="./images/4.jpg" alt="macbook" class="alt-imgs">
-<img src="./images/5.jpg" alt="macbook" class="alt-imgs">
-</div>
-</body>
+    <div class="side-img-container">
+      <img src="./images/1.jpg" alt="macbook-1" class="alt-imgs" id="sub-imgs" onmouseover="changeImg(1)"/>
+      <img src="./images/2.jpg" alt="macbook-2" class="alt-imgs" id="sub-imgs" onmouseover="changeImg(2)"/>
+      <img src="./images/3.jpg" alt="macbook-3" class="alt-imgs" id="sub-imgs" onmouseover="changeImg(3)"/>
+      <img src="./images/4.jpg" alt="macbook-4" class="alt-imgs" id="sub-imgs" onmouseover="changeImg(4)"/>
+      <img src="./images/5.jpg" alt="macbook-5" class="alt-imgs" id="sub-imgs" onmouseover="changeImg(5)"/>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
