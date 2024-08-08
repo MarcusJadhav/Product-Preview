@@ -1,0 +1,21 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.img-container {
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 1px rgb(144, 148, 152);
+    width: 600px;
+    padding: 20px;
+    display: block;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+.main-img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+
+}
